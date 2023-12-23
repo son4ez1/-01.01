@@ -1,0 +1,23 @@
+﻿<Page x:Class="MalinovskayaEX.pages.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MalinovskayaEX.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page2" Margin="5,0,0,0" MinHeight="18" MinWidth="22" Height="402" Width="639">
+
+    <Grid Margin="0,0,-4,0">
+
+        <Image Source="/ЭКЗ МАЛИНОВСКАЯ/1669192009_1.jpg" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="-18,-6,-74.5,3" Width="732" />
+        <TextBlock TextWrapping="Wrap" Foreground="#FF0A0F0F" Margin="0,0,202,0"><Run FontWeight="Bold" FontSize="15" Text="ООО «Карго Линк» - один из основных экспедиторов грузов на Дальнем Востоке и по всей РФ железнодорожным и автомобильным транспортом. В сферу наших компетенций входят как грузоперевозки (сборные грузы и FTL) и проектная логистика, так и услуги разгрузки/погрузки и складского хранения. "/><LineBreak/><Run FontWeight="Bold" FontSize="15" Text="Миссия нашей компании - содействие росту конкурентоспособности наших клиентов посредством создания и предложения наиболее оптимального пакета логистических услуг."/><LineBreak/><Run FontWeight="Bold" FontSize="15" Text="Мы адаптируемся под конкретные требования каждого проекта. "/><LineBreak/><Run FontWeight="Bold" FontSize="15" Text="Мы делаем ставку на качество наших услуг, выполняем свои обещания и помогаем клиентам развивать свой бизнес."/><LineBreak/><Run FontWeight="Bold" FontSize="15" Text="Нам доверяют, поскольку мы считаем себя частью бизнеса клиента и выстраиваем долгосрочные и гармоничные отношения со всеми участниками рынка."/></TextBlock>
+        <Grid.ColumnDefinitions>
+
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+        </Grid.RowDefinitions>
+    </Grid>
+</Page>

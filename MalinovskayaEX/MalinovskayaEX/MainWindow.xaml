@@ -1,0 +1,31 @@
+﻿<Window x:Class="MalinovskayaEX.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MalinovskayaEX"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="645">
+    <Grid>
+
+        <Image Source="/ЭКЗ МАЛИНОВСКАЯ/1580789531922_bulletin.jpg" Grid.RowSpan="132" Grid.ColumnSpan="60" Width="665" Height="467" />
+        <Button Height="62" Content="Видео о компании" Click="Button_Click" Grid.Row="2" Background="#FF744DA2" BorderBrush="#FFC38C8C" Foreground="#FFD1B2B2" FontFamily="Showcard Gothic" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="0,22,114,21"/>
+        <Button Height="62" Content="Описание компании" Click="Button_Click2" Grid.Row="1" Background="#FF744DA2" BorderBrush="#FFC38C8C" Foreground="#FFD1B2B2" FontFamily="Showcard Gothic" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="0,21,114,22"/>
+        <Button Height="62" Content="Назад" Click="Button_nazad" Background="#FF744DA2" BorderBrush="#FFC38C8C" Foreground="#FFD1B2B2" FontFamily="Showcard Gothic" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="0,22,114,21"/>
+        <Frame Name ="_mainFrame" Grid.RowSpan="4" Grid.ColumnSpan="5" Height="379" Width="446"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+    </Grid>
+</Window>
